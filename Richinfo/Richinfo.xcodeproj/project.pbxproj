@@ -13,6 +13,8 @@
 		6A41B1D021421A8000BDC6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A41B1CF21421A8000BDC6EE /* Assets.xcassets */; };
 		6A41B1D321421A8000BDC6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A41B1D121421A8000BDC6EE /* LaunchScreen.storyboard */; };
 		6A41B1D621421A8000BDC6EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A41B1D521421A8000BDC6EE /* main.m */; };
+		6A86CBAE2142201D000F60CF /* CXMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A86CBAD2142201D000F60CF /* CXMaskView.m */; };
+		6A86CBB421422335000F60CF /* CXProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A86CBB321422335000F60CF /* CXProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		6A41B1D221421A8000BDC6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A41B1D421421A8000BDC6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A41B1D521421A8000BDC6EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A86CBAC2142201D000F60CF /* CXMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMaskView.h; sourceTree = "<group>"; };
+		6A86CBAD2142201D000F60CF /* CXMaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMaskView.m; sourceTree = "<group>"; };
+		6A86CBB221422335000F60CF /* CXProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXProgressView.h; sourceTree = "<group>"; };
+		6A86CBB321422335000F60CF /* CXProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXProgressView.m; sourceTree = "<group>"; };
+		6A86CBB5214259FE000F60CF /* Richinfo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Richinfo.podspec; path = ../Richinfo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,10 @@
 		6A41B1BA21421A7D00BDC6EE = {
 			isa = PBXGroup;
 			children = (
+				6A86CBB5214259FE000F60CF /* Richinfo.podspec */,
+				6A86CBA821421E7F000F60CF /* Bundles */,
+				6A86CBA721421E7F000F60CF /* Classes */,
+				6A86CBA921421E7F000F60CF /* Frameworks */,
 				6A41B1C521421A7D00BDC6EE /* Richinfo */,
 				6A41B1C421421A7D00BDC6EE /* Products */,
 			);
@@ -69,6 +80,47 @@
 				6A41B1D521421A8000BDC6EE /* main.m */,
 			);
 			path = Richinfo;
+			sourceTree = "<group>";
+		};
+		6A86CBA721421E7F000F60CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A86CBAA21421F6A000F60CF /* CXFoundation */,
+				6A86CBAB21421F6A000F60CF /* CXKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A86CBA821421E7F000F60CF /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
+		6A86CBA921421E7F000F60CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A86CBAA21421F6A000F60CF /* CXFoundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CXFoundation;
+			sourceTree = "<group>";
+		};
+		6A86CBAB21421F6A000F60CF /* CXKit */ = {
+			isa = PBXGroup;
+			children = (
+				6A86CBAC2142201D000F60CF /* CXMaskView.h */,
+				6A86CBAD2142201D000F60CF /* CXMaskView.m */,
+				6A86CBB221422335000F60CF /* CXProgressView.h */,
+				6A86CBB321422335000F60CF /* CXProgressView.m */,
+			);
+			path = CXKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A41B1CB21421A7D00BDC6EE /* ViewController.m in Sources */,
+				6A86CBAE2142201D000F60CF /* CXMaskView.m in Sources */,
 				6A41B1D621421A8000BDC6EE /* main.m in Sources */,
 				6A41B1C821421A7D00BDC6EE /* AppDelegate.m in Sources */,
+				6A86CBB421422335000F60CF /* CXProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
